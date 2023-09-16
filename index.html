@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="overlay">
+    <!-- main container -->
+    <div class="container">
+        <!-- upper part -->
+        <div class="current-info">
+            <!-- date and time container -->
+            <div class="dateAndTime">
+                <div class="time" id="time">
+                    12:30 <span id="am-pm">PM</span>
+                </div>
+                <div class="date" id="date">
+                    Tuesday, 12 Sedjjdjtember
+                </div>
+            </div>
+            
+            
+                <div class="location">
+                    <div class="time-zone" id="time-zone">
+                        Asia/Haryana
+
+                    </div>
+                    <div class="country" id="country">
+                        Uk
+                    </div>
+                    
+                </div>
+        </div>
+        <div class="container-2">
+                <div class="other-items">
+                     <div class="weather-items">
+                        <div>Humidity</div>
+                        <div id="humidity">85.2%</div>
+                     </div>
+                     <div class="weather-items">
+                        <div>Pressure</div>
+                        <div id="pressure">85.2%</div>
+                     </div>
+                     <div class="weather-items">
+                        <div>Wind Speed</div>
+                        <div id="wind speed">85.2%</div>
+                     </div>
+                     <div class="weather-items">
+                        <div>Sunrise</div>
+                        <div id="sunrise">85.2%</div>
+                     </div>
+                     <div class="weather-items">
+                        <div>Sunset</div>
+                        <div id="sunset">85.2%</div>
+                     </div>
+                </div>
+                <div class="current-temp" id="currentTemp">
+                    35&#176; C
+                </div>
+            </div>   
+                
+
+        
+</div>
+        <div class="future-forecast" id="forecast">
+            <!-- <div class="today"  id="current-temp">
+                <div class="day">Monday</div>
+                <img src="//cdn.weatherapi.com/weather/64x64/day/116.png" class="w-icon" >
+
+                <div class="condition" >Night - 25.6&#176; C</div>
+                <div class="temp" >35.6&#176; C</div>
+            </div> -->
+            
+            <div class="weatherfuture" id="weather-forecast">
+                <div class="weather-forecast-items">
+                    
+                    <div class="day">Tuesday</div>
+
+                
+                    <img src="//cdn.weatherapi.com/weather/64x64/day/116.png"  class="w-icon">
+
+                    <div class="temp" >35.6&#176; C</div>
+                    <div class="condition" >Night - 25.6&#176; C</div>
+                
+                </div>
+                
+
+                <div class="weather-forecast-items">
+                    <div class="day">Tuesday</div>
+                    <img src="//cdn.weatherapi.com/weather/64x64/day/116.png"  class="w-icon">
+                    
+                    <div class="temp" >35.6&#176; C</div>
+                    <div class="condition" >Night - 25.6&#176; C</div>
+
+                </div>
+                <div class="weather-forecast-items">
+                    <div class="day">Tuesday</div>
+                    <img src="//cdn.weatherapi.com/weather/64x64/day/116.png" class="w-icon">
+
+
+                    <div class="temp" >35.6&#176; C</div>
+                    <div class="condition" >Night - 25.6&#176; C</div>
+                </div>   
+                
+                <div class="weather-forecast-items">
+                    <div class="day">Tuesday</div>
+                    <img src="//cdn.weatherapi.com/weather/64x64/day/116.png" class="w-icon">
+                    <div class="temp" >35.6&#176; C</div>
+                    <div class="condition" >Night - 25.6&#176; C</div>
+
+                </div>
+                
+                <div class="weather-forecast-items">
+                    <div class="day">Tuesday</div>
+
+                    <img src="//cdn.weatherapi.com/weather/64x64/day/116.png" class="w-icon">
+                    <div class="temp" >35.6&#176; C</div>
+                    <div class="condition" >Night - 25.6&#176; C</div>
+
+                </div>
+                <div class="weather-forecast-items">
+                    <div class="day">Sunday</div>
+                    <img src="//cdn.weatherapi.com/weather/64x64/day/116.png" class="w-icon">
+                        
+                    <div class="temp" >35.6&#176; C</div>
+                    <div class="condition" >Night - 25.6&#176; C</div>
+
+                </div>
+                <div class="weather-forecast-items">
+                    <div class="day">Tuesday</div>
+                    <img src="//cdn.weatherapi.com/weather/64x64/day/116.png"  class="w-icon">
+                    
+                    <div class="temp" >35.6&#176; C</div>
+                    <div class="condition" >Night - 25.6&#176; C</div>
+                </div>
+
+                
+            
+
+            </div>
+            
+        </div>
+        
+
+
+
+
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
