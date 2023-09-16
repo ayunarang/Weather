@@ -36,7 +36,7 @@ setInterval(()=>{
 function getWeatherDataForDays(){
     navigator.geolocation.getCurrentPosition((success)=>{
         let{latitude, longitude}= success.coords;
-        fetch(`http://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=${latitude},${longitude}&days=7`).then(res=>res.json()).then(data=>{
+        fetch(`https://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=${latitude},${longitude}&days=7`).then(res=>res.json()).then(data=>{
             let sunrise_data=(data.forecast.forecastday[0].astro.sunrise);
             let sunset_data=(data.forecast.forecastday[0].astro.sunset);
             sunrise.innerHTML=`<div id="sunrise">${sunrise_data}</div>`;
